@@ -1,4 +1,6 @@
  
+// js
+ 
 function highlight() {
     //Write your code here
   var boldWords = document.querySelectorAll('strong')
@@ -11,14 +13,4 @@ function return_normal() {
   boldWords.forEach(function(word) {
     word.style.color = 'black';
   });
-}
-
-
-function return_normal() {
-    //Write your code here
-	let boldWords = document.getElementByTagName('strong');
-	for(let i=0;i<boldWords.length; i++){
-		boldWords[i].style.color = 'black';
-	}
-    
 }
